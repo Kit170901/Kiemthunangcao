@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-15T22:22:12 ICT" name="main-suite" finished-at="2022-04-15T22:22:12 ICT" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- main-suite -->
+  <suite started-at="2022-04-15T22:21:50 ICT" name="DAOsuite" finished-at="2022-04-15T22:21:51 ICT" duration-ms="1514">
+    <groups>
+    </groups>
+    <test started-at="2022-04-15T22:21:50 ICT" name="DAOsuite-test" finished-at="2022-04-15T22:21:51 ICT" duration-ms="1514">
+      <class name="com.edusys.dao.NhanVienDAOTest">
+        <test-method signature="testSelectBySql()[pri:1, instance:com.edusys.dao.NhanVienDAOTest@5656be13]" started-at="2022-04-15T22:21:50 ICT" name="testSelectBySql" finished-at="2022-04-15T22:21:50 ICT" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method signature="testSelectAll()[pri:2, instance:com.edusys.dao.NhanVienDAOTest@5656be13]" started-at="2022-04-15T22:21:50 ICT" name="testSelectAll" finished-at="2022-04-15T22:21:50 ICT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method signature="testSelectByID()[pri:3, instance:com.edusys.dao.NhanVienDAOTest@5656be13]" started-at="2022-04-15T22:21:50 ICT" name="testSelectByID" finished-at="2022-04-15T22:21:50 ICT" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByID -->
+        <test-method signature="testSelectByKey()[pri:4, instance:com.edusys.dao.NhanVienDAOTest@5656be13]" started-at="2022-04-15T22:21:50 ICT" name="testSelectByKey" finished-at="2022-04-15T22:21:50 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByKey -->
+        <test-method signature="testInsert()[pri:5, instance:com.edusys.dao.NhanVienDAOTest@5656be13]" started-at="2022-04-15T22:21:50 ICT" name="testInsert" finished-at="2022-04-15T22:21:50 ICT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method signature="testUpdate()[pri:6, instance:com.edusys.dao.NhanVienDAOTest@5656be13]" started-at="2022-04-15T22:21:50 ICT" name="testUpdate" finished-at="2022-04-15T22:21:50 ICT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method signature="testDelete()[pri:7, instance:com.edusys.dao.NhanVienDAOTest@5656be13]" started-at="2022-04-15T22:21:50 ICT" name="testDelete" finished-at="2022-04-15T22:21:51 ICT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+      </class> <!-- com.edusys.dao.NhanVienDAOTest -->
+      <class name="com.edusys.dao.HocVienDAOTest">
+        <test-method signature="testSelectBySql()[pri:1, instance:com.edusys.dao.HocVienDAOTest@1bb5a082]" started-at="2022-04-15T22:21:51 ICT" name="testSelectBySql" finished-at="2022-04-15T22:21:51 ICT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method signature="testSelectAll()[pri:2, instance:com.edusys.dao.HocVienDAOTest@1bb5a082]" started-at="2022-04-15T22:21:51 ICT" name="testSelectAll" finished-at="2022-04-15T22:21:51 ICT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method signature="testSelectByNHKH()[pri:3, instance:com.edusys.dao.HocVienDAOTest@1bb5a082]" started-at="2022-04-15T22:21:51 ICT" name="testSelectByNHKH" finished-at="2022-04-15T22:21:51 ICT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByNHKH -->
+        <test-method signature="testInsert()[pri:4, instance:com.edusys.dao.HocVienDAOTest@1bb5a082]" started-at="2022-04-15T22:21:51 ICT" name="testInsert" finished-at="2022-04-15T22:21:51 ICT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method signature="testUpdate()[pri:5, instance:com.edusys.dao.HocVienDAOTest@1bb5a082]" started-at="2022-04-15T22:21:51 ICT" name="testUpdate" finished-at="2022-04-15T22:21:51 ICT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method signature="testDelete()[pri:6, instance:com.edusys.dao.HocVienDAOTest@1bb5a082]" started-at="2022-04-15T22:21:51 ICT" name="testDelete" finished-at="2022-04-15T22:21:51 ICT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+      </class> <!-- com.edusys.dao.HocVienDAOTest -->
+    </test> <!-- DAOsuite-test -->
+  </suite> <!-- DAOsuite -->
+  <suite started-at="2022-04-15T22:21:51 ICT" name="UIsuite" finished-at="2022-04-15T22:21:53 ICT" duration-ms="1952">
+    <groups>
+    </groups>
+    <test started-at="2022-04-15T22:21:51 ICT" name="UIsuite-test" finished-at="2022-04-15T22:21:53 ICT" duration-ms="1952">
+      <class name="com.edusys.ui.HocVienJDialogTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.edusys.ui.HocVienJDialogTest@d35dea7]" started-at="2022-04-15T22:21:51 ICT" name="init" finished-at="2022-04-15T22:21:52 ICT" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testGetXepLoai(java.lang.String,java.lang.String)[pri:0, instance:com.edusys.ui.HocVienJDialogTest@d35dea7]" started-at="2022-04-15T22:21:53 ICT" name="testGetXepLoai" data-provider="input" finished-at="2022-04-15T22:21:53 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Không hợp lệ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetXepLoai -->
+        <test-method signature="testGetXepLoai(java.lang.String,java.lang.String)[pri:0, instance:com.edusys.ui.HocVienJDialogTest@d35dea7]" started-at="2022-04-15T22:21:53 ICT" name="testGetXepLoai" data-provider="input" finished-at="2022-04-15T22:21:53 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chưa đạt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetXepLoai -->
+        <test-method signature="testGetXepLoai(java.lang.String,java.lang.String)[pri:0, instance:com.edusys.ui.HocVienJDialogTest@d35dea7]" started-at="2022-04-15T22:21:53 ICT" name="testGetXepLoai" data-provider="input" finished-at="2022-04-15T22:21:53 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Trung bình]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetXepLoai -->
+        <test-method signature="testGetXepLoai(java.lang.String,java.lang.String)[pri:0, instance:com.edusys.ui.HocVienJDialogTest@d35dea7]" started-at="2022-04-15T22:21:53 ICT" name="testGetXepLoai" data-provider="input" finished-at="2022-04-15T22:21:53 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khá]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetXepLoai -->
+        <test-method signature="testGetXepLoai(java.lang.String,java.lang.String)[pri:0, instance:com.edusys.ui.HocVienJDialogTest@d35dea7]" started-at="2022-04-15T22:21:53 ICT" name="testGetXepLoai" data-provider="input" finished-at="2022-04-15T22:21:53 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Giỏi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetXepLoai -->
+        <test-method signature="testGetXepLoai(java.lang.String,java.lang.String)[pri:0, instance:com.edusys.ui.HocVienJDialogTest@d35dea7]" started-at="2022-04-15T22:21:53 ICT" name="testGetXepLoai" data-provider="input" finished-at="2022-04-15T22:21:53 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xuất sắc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetXepLoai -->
+        <test-method signature="testGetXepLoai(java.lang.String,java.lang.String)[pri:0, instance:com.edusys.ui.HocVienJDialogTest@d35dea7]" started-at="2022-04-15T22:21:53 ICT" name="testGetXepLoai" data-provider="input" finished-at="2022-04-15T22:21:53 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Không hợp lệ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetXepLoai -->
+      </class> <!-- com.edusys.ui.HocVienJDialogTest -->
+      <class name="com.edusys.ui.DoiMatKhauJDialogTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:52 ICT" name="setUp" finished-at="2022-04-15T22:21:52 ICT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChangePass1()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:52 ICT" name="testChangePass1" finished-at="2022-04-15T22:21:53 ICT" duration-ms="50" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.edusys.entity.NhanVien.getMaNV()" because "com.edusys.utils.Auth.USER" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.edusys.entity.NhanVien.getMaNV()" because "com.edusys.utils.Auth.USER" is null
+at com.edusys.ui.DoiMatKhauJDialog.init(DoiMatKhauJDialog.java:37)
+at com.edusys.ui.DoiMatKhauJDialog.<init>(DoiMatKhauJDialog.java:29)
+at com.edusys.ui.DoiMatKhauJDialogTest.testChangePass1(DoiMatKhauJDialogTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePass1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="tearDown" finished-at="2022-04-15T22:21:53 ICT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="setUp" finished-at="2022-04-15T22:21:53 ICT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChangePass2()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="testChangePass2" finished-at="2022-04-15T22:21:53 ICT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePass2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="tearDown" finished-at="2022-04-15T22:21:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="setUp" finished-at="2022-04-15T22:21:53 ICT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChangePass3()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="testChangePass3" finished-at="2022-04-15T22:21:53 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePass3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="tearDown" finished-at="2022-04-15T22:21:53 ICT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="setUp" finished-at="2022-04-15T22:21:53 ICT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChangePass4()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="testChangePass4" finished-at="2022-04-15T22:21:53 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePass4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="tearDown" finished-at="2022-04-15T22:21:53 ICT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="setUp" finished-at="2022-04-15T22:21:53 ICT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChangePass5()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="testChangePass5" finished-at="2022-04-15T22:21:53 ICT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePass5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edusys.ui.DoiMatKhauJDialogTest@45c7e403]" started-at="2022-04-15T22:21:53 ICT" name="tearDown" finished-at="2022-04-15T22:21:53 ICT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edusys.ui.DoiMatKhauJDialogTest -->
+      <class name="com.edusys.ui.DangNhapJDialogTest">
+        <test-method signature="testIsLogin1()[pri:0, instance:com.edusys.ui.DangNhapJDialogTest@2a5c8d3f]" started-at="2022-04-15T22:21:52 ICT" name="testIsLogin1" finished-at="2022-04-15T22:21:52 ICT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsLogin1 -->
+        <test-method signature="testIsLogin2()[pri:0, instance:com.edusys.ui.DangNhapJDialogTest@2a5c8d3f]" started-at="2022-04-15T22:21:52 ICT" name="testIsLogin2" finished-at="2022-04-15T22:21:52 ICT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsLogin2 -->
+        <test-method signature="testIsLogin3()[pri:0, instance:com.edusys.ui.DangNhapJDialogTest@2a5c8d3f]" started-at="2022-04-15T22:21:52 ICT" name="testIsLogin3" finished-at="2022-04-15T22:21:52 ICT" duration-ms="59" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.edusys.ui.DangNhapJDialog.isLogin(DangNhapJDialog.java:99)
+at com.edusys.ui.DangNhapJDialogTest.testIsLogin3(DangNhapJDialogTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsLogin3 -->
+      </class> <!-- com.edusys.ui.DangNhapJDialogTest -->
+    </test> <!-- UIsuite-test -->
+  </suite> <!-- UIsuite -->
+  <suite started-at="2022-04-15T22:21:53 ICT" name="LoginPageWebSuite" finished-at="2022-04-15T22:22:12 ICT" duration-ms="18802">
+    <groups>
+    </groups>
+    <test started-at="2022-04-15T22:21:53 ICT" name="LoginPageWebSuite-test" finished-at="2022-04-15T22:22:12 ICT" duration-ms="18802">
+      <class name="webtest.DangNhapPageTest">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:webtest.DangNhapPageTest@bccb269]" started-at="2022-04-15T22:21:53 ICT" name="suiteSetup" finished-at="2022-04-15T22:21:54 ICT" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method signature="launchWebsite()[pri:1, instance:webtest.DangNhapPageTest@bccb269]" started-at="2022-04-15T22:21:54 ICT" name="launchWebsite" finished-at="2022-04-15T22:22:00 ICT" duration-ms="5292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method signature="FillLogin()[pri:2, instance:webtest.DangNhapPageTest@bccb269]" started-at="2022-04-15T22:22:00 ICT" name="FillLogin" finished-at="2022-04-15T22:22:01 ICT" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLogin -->
+        <test-method signature="DoLogin()[pri:3, instance:webtest.DangNhapPageTest@bccb269]" started-at="2022-04-15T22:22:01 ICT" name="DoLogin" finished-at="2022-04-15T22:22:12 ICT" duration-ms="11076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:webtest.DangNhapPageTest@bccb269]" started-at="2022-04-15T22:22:12 ICT" name="suiteTearDown" finished-at="2022-04-15T22:22:12 ICT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- webtest.DangNhapPageTest -->
+    </test> <!-- LoginPageWebSuite-test -->
+  </suite> <!-- LoginPageWebSuite -->
+</testng-results>

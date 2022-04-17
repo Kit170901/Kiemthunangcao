@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="main-suite" parallel="false">
+    <suite-files>
+        <suite-file path="./DaoTestSuite.xml"></suite-file>
+        <suite-file path="./UITestSuite.xml"></suite-file>
+        <suite-file path="./LoginPageWebSuite.xml"></suite-file>
+    </suite-files>
+</suite>

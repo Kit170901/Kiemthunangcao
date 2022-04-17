@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="UIsuite" parallel="false">
+    <test name="UIsuite-test">
+        <classes>
+            <class name="com.edusys.ui.DangNhapJDialogTest"></class>
+            <class name="com.edusys.ui.DoiMatKhauJDialogTest"></class>
+            <class name="com.edusys.ui.HocVienJDialogTest"></class>
+        </classes>
+    </test>
+</suite>

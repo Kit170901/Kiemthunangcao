@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/com/edusys/ui/DangNhapJDialog.java=UTF-8
+encoding//src/com/edusys/ui/DoiMatKhauJDialog.java=UTF-8
+encoding//src/com/edusys/ui/HocVienJDialog.java=UTF-8
+encoding//src/com/edusys/ui/KhoaHocJDialog.java=UTF-8
+encoding//src/com/edusys/ui/NguoiHocJDialog.java=UTF-8
+encoding//src/com/edusys/ui/NhanVienJDialog.java=UTF-8
+encoding//test/com/edusys/ui/DangNhapJDialogTest.java=UTF-8
+encoding//test/com/edusys/ui/DoiMatKhauJDialogTest.java=UTF-8
+encoding//test/com/edusys/ui/HocVienJDialogTest.java=UTF-8
+encoding/<project>=UTF-8
